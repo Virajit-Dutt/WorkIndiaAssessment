@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Restaurants</h1>
+    <ul>
+        {% for restaurant in restaurants %}
+            <li>
+                <h2>{{ restaurant[1] }}</h2>
+                <p>{{ restaurant[2] }}</p>
+                <a href="{{ restaurant.website }}">{{ restaurant[3] }}</a>
+                <p>{{ restaurant[4] }}</p>
+                <p>{{ restaurant[6] }}</p>
+                <p>{{ restaurant[7] }}</p>
+                <a href="/book/{{ restaurant[0] }}">Book</a>
+            </li>
+        {% endfor %}
+    </ul>
+    
+    <br>
+    <br>
+    <br>
+    <a href="/logout">Logout</a>
+</body>
+</html>
