@@ -34,6 +34,11 @@ Follow these steps to set up the project:
     ```
     By default, the application will be available at `http://127.0.0.1:5000/`.
 
+5. **Admin Details **
+    Email: admin@gmail.com
+    Password: admin
+    By default, the application will be available at `http://127.0.0.1:5000/`.
+   
 ## Project Structure
 ```plaintext
 WorkIndiaAssessment
