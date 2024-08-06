@@ -44,6 +44,7 @@ WorkIndiaAssessment
 ├── app.py
 ├── db.py
 ├── templates/
+├── .gitignore
 ├── static
     ├── form.css
     ├── home.css
